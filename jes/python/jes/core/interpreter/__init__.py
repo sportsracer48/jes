@@ -69,6 +69,7 @@ class Interpreter(object):
 
         # Call the function.
         initCode(self)
+        
 
         # Capture the variables from the function.
         # (Lock to ensure that all the threads launched by initCode
